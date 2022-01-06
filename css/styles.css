@@ -1,0 +1,158 @@
+.flex-container{
+  display:flex;
+}
+.card1{
+  flex: 1;
+}
+.card2{
+  flex: 2;
+}
+.card3{
+  flex:1;
+}
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+
+}
+#cta{
+    background-color: #ff4c68;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 330px;
+}
+#footer{
+color: #fff;
+padding-top: 20px;
+
+}
+.download-button{
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  padding-top: 60px;
+}
+h2{
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.phone {
+  transform: rotate(25deg);
+
+  width: 60%;
+  margin-top: 45px;
+  margin-left: 90px;
+}
+h3{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+color:#ff4c68;
+}
+#testimonials{
+
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom:  3%;
+
+
+}
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+
+}
+.pricing-colomn{
+  padding: 3% 2%;
+}
+.su-button{
+  width: 100%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+
+position: relative;
+z-index: 1;
+}
+.end{
+
+  color: #fff;
+  font: Montserrat;
+  font-weight: bold;
+  font-size: 3.5rem;
+
+}
+@media(max-width:1060px) {
+  .end{
+    font-size: 2rem;
+  }
+  .phone{
+    position: static;
+    transform: rotate(0deg);
+    text-align: center;
+    margin-left: 0;
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+.down{
+  margin-top: 50px;
+}
+#footer{
+
+  padding-bottom: 10px;
+
+}
+.lasticon{
+  color: black;
+}
